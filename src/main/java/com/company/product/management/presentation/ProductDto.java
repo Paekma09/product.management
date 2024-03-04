@@ -1,6 +1,6 @@
-package com.company.product.management;
+package com.company.product.management.presentation;
 
-public class Product {
+public class ProductDto {
     private Long id;
     private String name;
     private Integer price;
@@ -20,5 +20,9 @@ public class Product {
 
     public Integer getAmount() {
         return amount;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }
